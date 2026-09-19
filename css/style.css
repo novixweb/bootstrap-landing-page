@@ -1,0 +1,25 @@
+/* 
+====================
+Fonts
+====================
+*/
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/Vazir.eot");
+
+  src:
+    url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir.woff2") format("woff2"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.ttf") format("truetype");
+  font-display: swap;
+}
+
+/* 
+====================
+Global Styles
+====================
+*/
+body {
+  font-family: vazir, sans-serif !important;
+}
