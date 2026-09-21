@@ -50,3 +50,38 @@ Gallery
 .gallery {
   background: #1b2a4e;
 }
+
+/* 
+====================
+Footer
+====================
+*/
+.footer-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-link:hover {
+  color: #3a3a3a;
+}
+
+.footer-header {
+  border-bottom: 3px solid #000;
+  height: 45px;
+}
+
+.footer-icon {
+  color: #000;
+}
+
+.footer-icon:hover {
+  cursor: pointer;
+  color: #3a3a3a;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-header {
+    width: 100% !important;
+  }
+}
+
